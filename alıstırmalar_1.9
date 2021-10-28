@@ -1,0 +1,20 @@
+for sayi in range(1,1000):
+    if sayi<9:
+       print(sayi,end=" ")
+
+    elif len(str(sayi))==2:
+         sayi=str(sayi)
+         a=sayi[0]
+         b=sayi[1]
+
+         if int(a)+int(b)<9:
+            print(sayi,end=" ")
+
+    elif len(str(sayi))==3:
+         sayi=str(sayi)
+         a=sayi[0]
+         b=sayi[1]
+         c=sayi[2]
+
+         if int(a)+int(b)+int(c)<9:
+            print(sayi,end=" ")
