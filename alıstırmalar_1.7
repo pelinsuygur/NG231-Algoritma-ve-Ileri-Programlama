@@ -1,0 +1,14 @@
+sayac=0
+liste=[]
+for sayi in range(100,1000):
+    sayi=str(sayi)
+    a=sayi[0]
+    b=sayi[1]
+    c=sayi[2]
+
+    if int(a)+int(b)==int(c):
+      liste.append(sayi)
+      sayac+=1
+
+print(liste)
+print(sayac)
