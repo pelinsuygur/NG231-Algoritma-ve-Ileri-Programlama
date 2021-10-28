@@ -1,0 +1,11 @@
+for dogum in range (1000,2022):
+    dogum=str(dogum)
+    a=dogum[0]
+    b=dogum[1]
+    c=dogum[-1]
+    d=dogum[-2]
+
+    toplam=int(a)+int(b)+int(c)+int(d)
+
+    if toplam == 2005-int(dogum):
+       print(dogum)
