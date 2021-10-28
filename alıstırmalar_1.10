@@ -1,0 +1,11 @@
+sayac=0
+for sayi in range(10000,100001):
+    sayi=str(sayi)
+    a=sayi[0]
+    b=sayi[1]
+    c=sayi[-1]
+    d=sayi[-2]
+
+    if a+b==d+c:
+       sayac+=1
+print(sayac)
